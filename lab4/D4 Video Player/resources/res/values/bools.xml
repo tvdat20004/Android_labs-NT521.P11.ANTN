@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="DEF_ANIME4K_FPS_LIMIT_EN">false</bool>
+    <bool name="DEF_AUTO_PLAY">true</bool>
+    <bool name="DEF_BACK_DOUBLE_PRESS_EN">true</bool>
+    <bool name="DEF_BATTERY_WARN_ENABLE">true</bool>
+    <bool name="DEF_BRIGHTNESS_HARD_SWIPE_EN">true</bool>
+    <bool name="DEF_CLOSE_WHEN_FINISHED_PLAYING">false</bool>
+    <bool name="DEF_DISABLE_GL_EFFECTS">false</bool>
+    <bool name="DEF_ENABLE_APP_UPDATES">true</bool>
+    <bool name="DEF_ENTER_PIP_ON_LEAVE">true</bool>
+    <bool name="DEF_PERSIST_BRIGHTNESS_EN">true</bool>
+    <bool name="DEF_PERSIST_VOLUME_EN">true</bool>
+    <bool name="DEF_SCALE_TO_WIDTH">false</bool>
+    <bool name="DEF_SWIPE_GESTURES_EN">true</bool>
+    <bool name="DEF_UPDATE_AVAILABLE">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="double_tap_seek_enable_fade_animation_combine">true</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+</resources>

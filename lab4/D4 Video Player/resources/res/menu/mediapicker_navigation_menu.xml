@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:enabled="true"
+        android:id="@+id/mediapicker_navigation_target_videos"
+        android:title="@string/mediapicker_nav_videos"/>
+    <item
+        android:icon="@drawable/ic_library_music_black_24dp"
+        android:enabled="true"
+        android:id="@+id/mediapicker_navigation_target_music"
+        android:title="@string/mediapicker_nav_music"/>
+    <item
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        android:enabled="true"
+        android:id="@+id/mediapicker_navigation_target_more"
+        android:title="@string/mediapicker_nav_more"/>
+</menu>

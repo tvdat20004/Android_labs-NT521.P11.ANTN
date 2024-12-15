@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/pb_playerViewPlaceholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="0dp"/>
+    <de.shadow578.yetanothervideoplayer.feature.controlview.GesturePlayerControlView
+        android:id="@+id/pb_playerControlView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="500dp"/>
+    <RelativeLayout
+        android:id="@+id/pb_playerBufferingCont"
+        android:visibility="visible"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:elevation="1000dp">
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/pb_playerBufferingWheel_normal"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:matProg_barColor="@color/player_buffering_progress"
+            app:matProg_barWidth="5dp"
+            app:matProg_fillRadius="true"
+            app:matProg_progressIndeterminate="true"/>
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/pb_playerBufferingWheel_pipmode"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:matProg_barColor="@color/player_buffering_progress"
+            app:matProg_barWidth="5dp"
+            app:matProg_fillRadius="false"
+            app:matProg_progressIndeterminate="true"/>
+    </RelativeLayout>
+</merge>

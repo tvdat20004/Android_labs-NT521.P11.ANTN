@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pb_quick_settings_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/pb_playbackRootView"
+        android:background="@color/player_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/playback_main_layout"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            layout="@layout/playback_quick_settings_drawer_layout"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            layout="@layout/playback_shader_drawer_layout"/>
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

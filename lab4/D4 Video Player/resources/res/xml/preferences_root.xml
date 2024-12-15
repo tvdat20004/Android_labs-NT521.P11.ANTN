@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings_general_title"
+        android:fragment="de.shadow578.yetanothervideoplayer.ui.AppSettingsActivity$PreferencesGeneralFragment"/>
+    <Preference
+        android:icon="@drawable/ic_touch_app_black_24dp"
+        android:title="@string/settings_swipe_title"
+        android:fragment="de.shadow578.yetanothervideoplayer.ui.AppSettingsActivity$PreferencesSwipeFragment"/>
+    <Preference
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        android:title="@string/settings_player_title"
+        android:fragment="de.shadow578.yetanothervideoplayer.ui.AppSettingsActivity$PreferencesPlayerConfigFragment"/>
+    <Preference
+        android:icon="@drawable/ic_a4k_black_48dp"
+        android:title="@string/settings_a4k_title"
+        android:fragment="de.shadow578.yetanothervideoplayer.ui.AppSettingsActivity$PreferencesAnime4KConfigFragment"/>
+    <Preference
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="@string/settings_about_title"
+        android:fragment="de.shadow578.yetanothervideoplayer.ui.AppSettingsActivity$PreferencesAboutFragment"/>
+</PreferenceScreen>
